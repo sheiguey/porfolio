@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em 15em;
+    background: linear-gradient(rgba(41,91,167,1) 5%, rgba(23, 2, 80, 0.2) 60%, rgb(41,91,167) 90%) 0% 0% / cover scroll, url('/public/assets/skills1.png') center center no-repeat fixed;
+}
+
+ 
+.title{
+    font-size: 2em; 
+    font-weight: 800;
+    line-height: 30px;
+    color: #ffb700;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.274);
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin:4em auto;
+    gap: 40px;
+}
+
+.wrapper{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    min-width: 5em;
+    border-radius:10px;
+   
+}
+
+.wrapper p{
+  color: #295ba7;
+  
+}
+
+.wrapper img{
+    width: 2em;
+    height: 2em;
+}
+
+
+  

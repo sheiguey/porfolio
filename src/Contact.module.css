@@ -1,0 +1,108 @@
+.contact{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em 15em;
+    background: linear-gradient(rgba(41,91,167,1) 5%, rgba(88, 70, 137, 0) 60%, rgb(41,91,167) 100%) 0% 0% / cover scroll, url('/public/assets/contact.jpg') center center no-repeat fixed;
+}
+
+
+.title{
+    font-size: 2em; 
+    font-weight: 800;
+    line-height: 30px;
+    color: #ffb700;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.274);
+    text-transform: uppercase;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0em auto;
+    background-color:#4a69977d;
+    border-radius: 15px;
+   
+}
+
+.card form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px 0;
+    width: 70%;
+}
+
+.formControl{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+
+.formControl input{
+   height: 2em;
+   border: none;
+   background-color:rgba(255, 255, 255, 0.456);
+   border-radius: 3px 3px 0 0;
+   border-bottom: 1px solid white;
+   color: #295BA7;
+   font-weight: 400;
+   font-size: 1em;
+}
+
+
+.formControl label{
+   color: rgba(255, 255, 255, 0.762);
+   font-size: 1em;
+   font-weight: 400;
+ }
+
+
+ .formControl input:focus{
+    height: 2em;
+    outline: none;
+    background-color:rgba(255, 255, 255, 0.456);
+    border-radius: 3px 3px 0 0;
+    border-bottom: 2px solid #ffb700;
+    
+ }
+
+ .formControl textarea{
+    height: 10em;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.456);
+    border-radius: 3px 3px 0 0;
+    border-bottom: 1px solid white;
+    color: #295BA7;
+    font-weight: 400;
+    font-size: 1em;
+ }
+
+ .formControl textarea:focus{
+    height: 10em;
+    outline: none;
+    background-color:rgba(255, 255, 255, 0.456);
+    border-radius: 3px 3px 0 0;
+    border-bottom: 2px solid #ffb700;
+    color: #295BA7;
+    font-weight: 400;
+    font-size: 1em;
+ }
+
+ form button{
+    background-color: #ffb700;
+    width: 100%;
+    color: #295BA7;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7em 0;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+ }
+

@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito+Sans:wght@700&display=swap');
+
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: rgb(0,212,255);
+    background: linear-gradient(rgba(41,91,167,0.5) 3%, rgba(23, 2, 80, 0.2) 60%, rgb(41,91,167) 90%) 0% 0% / cover scroll, url('/public/assets/background.jpg') center center no-repeat fixed;
+    border: none;
+}
+
+ 
+.intro{
+    z-index: 2;
+     margin-right: auto;
+     margin-left: auto;
+     padding: 20px;
+     display: flex;
+     align-self: center;
+     align-items: center;
+     gap:50px
+   
+}
+
+.profil{
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url('/public/assets/profil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:5px solid#ffb700;
+    z-index: 2;
+}
+
+.title{
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.75rem;
+    font-weight: 700;
+    Line-height: 66px;
+    letter-spacing: -0.01562em;
+    color: #ffffff;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.274);
+    
+}
+
+.description{
+    width: 100%;
+}
+
+.description p{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.description h2{
+   font-size: 3em; 
+   font-weight: 600;
+   line-height: 30px;
+   color: #ffb700;
+   letter-spacing: -0.01562em;
+   text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.274);
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5em;
+    background-color:#295BA7;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width:900px) {
+    .intro{
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .blob1{
+       display: none;
+      }
+   
+      .blob2{
+       display: none;
+      }
+}

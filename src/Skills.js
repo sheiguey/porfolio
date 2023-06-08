@@ -6,15 +6,15 @@ export default function Skills(){
     const content = skills.map(item=>{
 
         return (
-            <div key={item.id} className={classes.wrapper}>
+            <div key={item.id} className={`${classes.wrapper} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>
                 <img alt={item.title} src={item.icon} />
                 <p>{item.title}</p> 
              </div>
         ) 
     })
     return (
-        <div className={classes.container}>
-             <h1 className={classes.title}>Technologies et Outils</h1> 
+        <div id="skills" className={`${classes.container}`}>
+             <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>Technologies et Outils</h1> 
              <div className={classes.content}>
                 {
                     content

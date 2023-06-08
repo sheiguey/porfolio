@@ -47,5 +47,43 @@
     height: 2em;
 }
 
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0px, 100%, 0px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateZ(0px);
+  }
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp 
+  }
+  
+  .animate__animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
+
+@media screen and (max-width:950px) {
+    .container{
+        padding: 3em 3em;
+    }  
+}
+
+@media screen and (max-width:650px) {
+    .container{
+        text-align: center;
+    }  
+
+    .title{
+        
+        line-height: 1.2em;
+         
+    }
+}
+
 
   

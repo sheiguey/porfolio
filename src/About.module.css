@@ -50,12 +50,54 @@
      cursor: pointer;
 }
 
-@media screen and (max-width:700px) {
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0px, 100%, 0px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateZ(0px);
+  }
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp 
+  }
+  
+  .animate__animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
+
+
+@media screen and (max-width:1400px) {
+   
     .about{
+        padding:3em 3em;
+        display: flex;
+        justify-content: center;
+        gap:2em;
+      }
+     
+}
+
+@media screen and (max-width:1000px) {
+    .about{
+        padding:3em 3em;
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
-    }
+    }  
+}
 
-     
+@media screen and (max-width:650px) {
+    .img{
+        min-width: 300px;
+        min-height: 200px; 
+    }
+    .about{
+        padding:3em 1em;
+        
+    }  
 }

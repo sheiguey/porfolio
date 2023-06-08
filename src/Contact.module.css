@@ -94,7 +94,7 @@
     font-size: 1em;
  }
 
- form button{
+ form .button{
     background-color: #ffb700;
     width: 100%;
     color: #295BA7;
@@ -105,4 +105,37 @@
     font-weight: bold;
     cursor: pointer;
  }
+
+ @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0px, 100%, 0px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateZ(0px);
+  }
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp 
+  }
+  
+  .animate__animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
+
+ @media screen and (max-width:1250px) {
+   .contact{
+       padding: 3em 3em;
+   }  
+
+   .card form{
+      width: 80%;
+  }
+}
+
+
+ 
 

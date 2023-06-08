@@ -1,13 +1,14 @@
 import React from "react";
 import classes from "./Portfolio.module.css";
 import { Projects } from "./services/ProjectServices";
+import { nanoid } from "nanoid";
 
 
 export default function Portfolio(){
     const content =(
        Projects.map(item=>{
         return (
-            <div className={classes.card}>
+            <div key={item.id} className={`${classes.card} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>
             <img alt={item.title} src={item.img}/>
             <h3>{item.title}</h3> 
             <p className={classes.description}>{item.descrition}</p>
@@ -15,7 +16,7 @@ export default function Portfolio(){
                 {
                     item.tags.map(tag=>{
                         return (
-                            <span>
+                            <span key={nanoid()}>
                                 {tag}
                             </span>
                         )
@@ -36,7 +37,7 @@ export default function Portfolio(){
 
     return (
        
-        <div>
+        <div id="project">
              <div className={classes.container}>
              <h1 className={classes.title}>Quelques projets</h1> 
              <div className={classes.content}>

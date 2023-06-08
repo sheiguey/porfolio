@@ -1,43 +1,19 @@
-body {
-	margin: 0;
-}
-
-.image-wrapper {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	background: url("main.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-    animation-name: expand-fade-in;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-out;
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0px, 100%, 0px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateZ(0px);
+  }
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp 
+  }
+  
+  .animate__animated {
+    animation-duration: 2s;
     animation-fill-mode: both;
-}
-
-.title {
-	font-size: 4em;
-	text-transform: uppercase;
-	margin: 0;
-	font-family: Sen;
-	text-transform: uppercase;
-	text-align: center;
-    animation-name: fade-in;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: both;
-    animation-delay: 2s;
-}
-
-@keyframes expand-fade-in {
-    from {opacity: 0%; width: 0%;}
-    to {opacity: 100%; width: 100%;}
-}
-
-@keyframes fade-in {
-    from {opacity: 0%;}
-    to {opacity: 100%;}
-}
+  }

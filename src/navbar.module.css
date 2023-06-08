@@ -27,6 +27,19 @@ ul{
     cursor: pointer;
 }
 
+.menuItem :hover{
+   background-color: #FFB700;
+   padding: 0.5em 1em;
+   font-weight: bold;
+   font-size: 1em;
+   border-radius: 5px;
+}
+
+ 
+
+
+
+
 .mobileMenu{
     display: none;
 }
@@ -41,6 +54,10 @@ ul{
     padding: 0.3em;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.active{
+    background-color: #FFB700;
 }
 
 .logo img{

@@ -13,7 +13,7 @@ export default function Skills(){
         ) 
     })
     return (
-        <div id="skills" className={`${classes.container}`}>
+        <section id="skills" className={`${classes.container}`}>
              <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>Technologies et Outils</h1> 
              <div className={classes.content}>
                 {
@@ -21,6 +21,6 @@ export default function Skills(){
                 }
              </div>
             
-        </div>
+        </section>
     )
 }

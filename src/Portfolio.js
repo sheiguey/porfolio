@@ -37,7 +37,7 @@ export default function Portfolio(){
 
     return (
        
-        <div id="project">
+        <section id="project">
              <div className={classes.container}>
              <h1 className={classes.title}>Quelques projets</h1> 
              <div className={classes.content}>
@@ -45,6 +45,6 @@ export default function Portfolio(){
              </div>
             
         </div>
-        </div>
+        </section>
     )
 }

@@ -37,6 +37,22 @@
    
 }
 
+.wrapper:hover{
+    box-shadow:  rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#ffb700;
+     
+   
+}
+
+.wrapper:hover p{
+    color: white;
+    
+  }
+
 .wrapper p{
   color: #295ba7;
   

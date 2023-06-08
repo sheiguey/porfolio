@@ -20,10 +20,13 @@ function App() {
     <React.Fragment>
       <NavBar/>
       <Header/>
+      <main>
       <About/>
       <Skills/>
       <Portfolio/>
       <Contact/>
+      </main>
+      
       <Footer/>
     </React.Fragment>
   );

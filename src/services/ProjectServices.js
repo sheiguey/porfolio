@@ -13,6 +13,15 @@ export const Projects =[
     },
     {
         id:nanoid(),
+        img:"/assets/projects/capestone-project.png",
+        title:"CapeStone(Add To Cart)",
+        descrition:"Une mini application avec quelques fonctionnalites de site de e-commerce mettent beaucoup plus en avant le hook useContext",
+        tags:["React JS","Html","CSS","JavaScript"],
+        demo:"https://zippy-taiyaki-4dd2e5.netlify.app/",
+        code:"https://github.com/sheiguey/capestone-add-to-add-project"
+    },
+    {
+        id:nanoid(),
         img:"/assets/projects/quizzicapp2.png",
         title:"Quizzical App",
         descrition:"Une application de quizz basé sur l'API Trivia vous permettant de tester vos connaissances générales.",

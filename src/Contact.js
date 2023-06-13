@@ -14,7 +14,6 @@ export default function Contact(){
         e.preventDefault();
         emailjs.sendForm('service_os3n2jh', 'template_tgf298c', form.current, 'gIj11iB_0ZqIwM9j1')
           .then((result) => {
-              console.log(result.text);
               Swal.fire({
                 icon: 'success',
                 title: 'Message Envoye avec Success'

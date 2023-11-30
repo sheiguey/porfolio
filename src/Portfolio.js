@@ -25,8 +25,15 @@ export default function Portfolio(){
             </div>
             <hr/>
             <div className={classes.action}>
-              <a href={item.code}>Code</a>
-              <a href={item.demo}>Demo</a>
+            {
+               item.demo && <a href={item.demo}>Demo</a>
+            }
+
+            {
+              item.code && <a href={item.code} target="_blank">Code</a>
+            }
+              
+              
             </div>
           </div>
         )
@@ -39,7 +46,7 @@ export default function Portfolio(){
        
         <section id="project">
              <div className={classes.container}>
-             <h1 className={classes.title}>Quelques projets</h1> 
+             <h1 className={classes.title}>STUFF I MADE</h1> 
              <div className={classes.content}>
                  {content}
              </div>

@@ -6,16 +6,16 @@ export const Projects =[
         id:nanoid(),
         img:"/assets/projects/portfolio.png",
         title:"Portfolio",
-        descrition:"Mon portfolio, site sur lequel vous êtes entrain de naviguer vous donnant un aperçu de moi et de mes compétences",
+        descrition:"My portfolio, the site you are currently browsing, giving you an overview of me and my skills.",
         tags:["React JS","Html","CSS"],
-        demo:"",
+        demo:"https://github.com/sheiguey",
         code:""
     },
     {
         id:nanoid(),
         img:"/assets/projects/capestone-project.png",
         title:"CapeStone(Add To Cart)",
-        descrition:"Une mini application avec quelques fonctionnalites de site de e-commerce mettent beaucoup plus en avant le hook useContext",
+        descrition:"A mini-application with a few e-commerce site functionalities brings the useContext hook to the fore.",
         tags:["React JS","Html","CSS","JavaScript"],
         demo:"https://zippy-taiyaki-4dd2e5.netlify.app/",
         code:"https://github.com/sheiguey/capestone-add-to-add-project"
@@ -24,7 +24,7 @@ export const Projects =[
         id:nanoid(),
         img:"/assets/projects/quizzicapp2.png",
         title:"Quizzical App",
-        descrition:"Une application de quizz basé sur l'API Trivia vous permettant de tester vos connaissances générales.",
+        descrition:"A quiz application based on the Trivia API to test your general knowledge.",
         tags:["React JS","Html","CSS","JavaScrit"],
         demo:"https://harmonious-kheer-83e216.netlify.app/",
         code:"https://github.com/sheiguey/Quizzical-App"
@@ -33,7 +33,7 @@ export const Projects =[
         id:nanoid(),
         img:"/assets/projects/tenzies-Game.png",
         title:"Tensie Game",
-        descrition:"Une Application de jeux de dés. Vous permettant de choisir des dés a chiffre unique à tour de rôle. A la fin, il vous sera retourner le nombre de tour le temps effectue et le temps minimum",
+        descrition:"A dice game application. Allows you to choose single-digit dice in turn. At the end, you'll be shown the number of turns, the time taken and the minimum time.",
         tags:["React JS","Html","CSS","JavaScrit"],
         demo:"https://merry-flan-3ec6fc.netlify.app/",
         code:"https://github.com/sheiguey/Tenzies-Game"
@@ -42,43 +42,53 @@ export const Projects =[
         id:nanoid(),
         img:"/assets/projects/Budgeties-App.png",
         title:"Budgetie App" ,
-        descrition:"Une application d'enregistrement de dépenses en une période avec possibilité de filtrer par année et de visualiser le taux des dépenses par mois",
+        descrition:"An application for recording expenses in one period, with the possibility of filtering by year and viewing the rate of expenses by month.",
         tags:["React JS","Html","CSS","JavaScrit"],
         demo:"https://iridescent-tarsier-afc635.netlify.app/",
         code:"https://github.com/sheiguey/Expensive"
     },
     {
         id:nanoid(),
-        img:"/assets/projects/Budgeties-App.png",
+        img:"/assets/projects/zencollect.png",
         title:"Zencollect" ,
-        descrition:"Plateforme permettant aux collecteurs d’une microfinance d'effectuer leurs opérations sur le terrain à partir d'une application mobile en toute sécurité, et permettant à la microfinance d'avoir le contrôle en temps réel sur les entrées et les différentes sorties d’argent des agents de collecte qui sont sur le terrain. Elle permet également via une application mobile aux clients d’avoir un suivi clair de toutes ses transactions.",
-        tags:["React JS","Html","CSS","JavaScrit"],
-        demo:"https://www.youtube.com/watch?v=Tqv7gdwHQeo",
-        code:"#"
+        descrition:"This platform enables microfinance collectors to carry out their operations in the field from a mobile application in complete security, and gives the microfinance company real-time control over the cash inflows and outflows of its collection agents in the field. It also enables customers to track all their transactions via a mobile application.",
+        tags:["React JS","Html","CSS","JavaScrit","Bootstrap","Git"],
+        demo:"https://youtu.be/aFNq3I7Qqrc",
+       
+    },
+     
+    {
+        id:nanoid(),
+        img:"/assets/projects/bulksms.png",
+        title:"BulkSMS" ,
+        descrition:"A bulk messages App",
+        tags:["React JS","Html","CSS","JavaScrit","Bootstrap","Git"],
+        demo:"hhttps://youtu.be/5YYUTr5nE20",
+         
     },
     {
         id:nanoid(),
-        img:"/assets/projects/basketball.png",
-        title:"Basket ball score board",
-        descrition:"Simulation d'un tableau de score d'un match de basket",
-        tags:["Html","CSS","JavaScrit"],
-        demo:"https://guileless-mandazi-a7e3bd.netlify.app",
-        code:"https://github.com/sheiguey/Basketball-Scoreboard"
+        img:"/assets/projects/zencarto.png",
+        title:"Zencarto" ,
+        descrition:"An urban community application for collecting and mapping data on taxpayers in a geographical area, offering excellent tracking of tax payments.",
+        tags:["React JS","Html","CSS","JavaScrit","Bootstrap","Git"],
+         
     },
     {
         id:nanoid(),
-        img:"/assets/projects/password-generator.png",
-        title:"passeword Generator",
-        descrition:"Application de génération aléatoire de mot de passe avec possibilité d'ajouter ou diminuer le nombre de caractères",
-        tags:["Html","CSS","JavaScrit"],
-        demo:"https://ephemeral-frangipane-4ec7b0.netlify.app/",
-        code:"https://github.com/sheiguey/Random-Password-Generator"
+        img:"/assets/projects/zenoutdoor.png",
+        title:"Zenoutdoor" ,
+        descrition:"Application for collecting and geolocating points of sale, billboards and other points of interest.",
+        tags:["PHP","CodeIgniter","Html","CSS","JavaScrit","Bootstrap","Git"],
+        demo:"https://youtu.be/OMOyUhhtGMk",
+         
     },
+  
     {
         id:nanoid(),
         img:"/assets/projects/unit-conversion.png",
         title:"Metric/Imperial Unit Conversion",
-        descrition:"Simple application Js de conversion d'unité de mesures. ",
+        descrition:"Simple Js application for converting units of measurement.",
         tags:["Html","CSS","JavaScrit"],
         demo:"https://radiant-mandazi-a2c917.netlify.app/",
         code:"https://github.com/sheiguey/Unit-converter"

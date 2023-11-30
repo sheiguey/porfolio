@@ -49,6 +49,7 @@
 .tags{
     display: flex;
     justify-content: left;
+    flex-wrap: wrap;
     gap: 5px;
     color: #ffb700;
     margin-bottom: 1.5em;

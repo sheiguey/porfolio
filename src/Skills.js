@@ -14,7 +14,7 @@ export default function Skills(){
     })
     return (
         <section id="skills" className={`${classes.container}`}>
-             <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>Technologies et Outils</h1> 
+             <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>TECHNOLOGIES AND TOOLS</h1> 
              <div className={classes.content}>
                 {
                     content

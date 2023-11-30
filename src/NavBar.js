@@ -1,4 +1,4 @@
-import React,{useState} from "react"
+import React  from "react"
 
 import classes from './navbar.module.css'
 
@@ -13,11 +13,11 @@ export default function NavBar(){
                 <img alt="logo" src="/assets/logo192.png" /> 
             </div>
              <ul className={`${classes.menu} ${classes.deskMenu}`}>
-                <li className={`${classes.menuItem}`}><a href="#home">Acceuil</a></li>
-                <li className={`${classes.menuItem}` }><a href="#about">A propos</a></li>
+                <li className={`${classes.menuItem}`}><a href="#home">Home</a></li>
+                <li className={`${classes.menuItem}` }><a href="#about">About</a></li>
                 <li className={`${classes.menuItem}`}><a href="#skills">Technologies</a></li>
-                <li className={`${classes.menuItem}`}><a href="#project">Projets</a></li>
-                <li className={`${classes.menuItem}`}><a href="#contact">contact</a></li>
+                <li className={`${classes.menuItem}`}><a href="#project">Projects</a></li>
+                <li className={`${classes.menuItem}`}><a href="#contact">Contact</a></li>
              </ul>
              
              <ul className={`${classes.menu} ${classes.mobileMenu}`}>

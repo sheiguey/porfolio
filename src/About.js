@@ -7,23 +7,22 @@ export default function About(){
                 <div  className={`${classes.img} ${classes.animate__fadeInUp} ${classes.animate__animated}`}></div>
                 <div className={`${classes.description} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>
                     <div>
-                      <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>A propos de moi</h1>
+                      <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>About me</h1>
                     </div>
                   <div>
                   <p className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}>
-                   Salut comment vous allez ? j’espère pour le mieux ! Moi c’est Franky Shiti Camerounais âgé de 28 ans vivant à Douala. 
-                   Passionné du monde digital, je me suis permis d’avoir un apprentissage intensif dans le monde du développement 
-                   d’applications web me donnant ainsi des compétences dans ce domaine. <br/><br/>
+                 Hi, how are you? I hope for the best! I'm Franky Shiti, a 28-year-old Cameroonian living in Douala. 
+                 Passionate about the digital world, I've allowed myself to have an intensive apprenticeship 
+                 in the world of web application development, giving me skills in this field. 
+                  <br/><br/>
 
-                   Mes +3 ans d’expériences dans ce domaine m’ont montré que le monde du développement d’application est très vaste et que
-                   l’important n’est pas seulement de coder ou bien de se limiter à l’apparence. Des notions comme la complexité du code, 
-                   la performance et la sécurité sont des éléments très important dans le domaine de la création de logiciel.
+                  My +3 years of experience in this field have shown me that the world of application development is very vast,  
+                  and that it's not just about coding or appearance. 
+                  Notions such as code complexity  performance and security are very important elements in software development.
 
-                   De ce fait j’ai dédié cette année non seulement à me perfectionner dans les méthodes de développement 
-                   et Framework mais aussi toucher ces différentes notions.<br/><br/>
+                  As a result, I've spent the last few years not only perfecting my knowledge of development methods and frameworks, but also getting to grips with these different concepts.<br/><br/>
 
-                   Je m'engage à mettre en œuvre mes compétences et à démontrer ma passion pour le développement et 
-                   l'ingénierie afin d'offrir à l'utilisateur une expérience exceptionnelle.
+                  I'm committed to applying my skills and passion for development and engineering to deliver an exceptional user experience.
                    </p>
                   </div>
                  

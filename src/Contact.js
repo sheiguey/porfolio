@@ -32,15 +32,15 @@ export default function Contact(){
 
     return(
         <section id="contact" className={classes.contact}>
-             <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>Me Contacter</h1> 
+             <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>GET IN TOUCH</h1> 
              <div className={`${classes.card} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className={classes.formControl}>
-                        <label  htmlFor="name" className="label">Nom*</label>
+                        <label  htmlFor="name" className="label">Name*</label>
                         <input id="name" type="text" name="name" required /> 
                     </div>
                     <div className={classes.formControl}>
-                        <label  htmlFor="firstName" type="text">Prenom*</label>
+                        <label  htmlFor="firstName" type="text">First name*</label>
                         <input id="firstName" type="text" name="firstname" required/> 
                     </div>
                     <div className={classes.formControl}>
@@ -53,7 +53,7 @@ export default function Contact(){
                         <textarea id="message" name="message"></textarea>
                     </div>
                     <button className={classes.button} type="submit">
-                    Envoyer
+                     Send Message
                         {
                         preloader===true &&
                         <Preload/>

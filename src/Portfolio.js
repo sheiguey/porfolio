@@ -26,11 +26,11 @@ export default function Portfolio(){
             <hr/>
             <div className={classes.action}>
             {
-               item.demo && <a href={item.demo}>Demo</a>
+               item.demo && <a href={item.demo} target="_blank" rel="noreferrer" >Demo</a>
             }
 
             {
-              item.code && <a href={item.code} target="_blank">Code</a>
+              item.code && <a href={item.code} target="_blank" rel="noreferrer" >Code</a>
             }
               
               

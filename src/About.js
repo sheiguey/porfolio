@@ -1,17 +1,20 @@
 import React from "react";
+
 import classes from './About.module.css'
+
 
 export default function About(){
     return(
         <section id="about" className={classes.about}>
                 <div  className={`${classes.img} ${classes.animate__fadeInUp} ${classes.animate__animated}`}></div>
+      
                 <div className={`${classes.description} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>
                     <div>
                       <h1 className={`${classes.title} ${classes.animate__fadeInUp} ${classes.animate__animated}`}>About me</h1>
                     </div>
                   <div>
                   <p className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}>
-                 Hi, how are you? I hope for the best! I'm Franky Shiti, a 28-year-old Cameroonian living in Douala. 
+                 Hi!!! I'm Franky Shiti, a 28-year-old Cameroonian living in Douala. 
                  Passionate about the digital world, I've allowed myself to have an intensive apprenticeship 
                  in the world of web application development, giving me skills in this field. 
                   <br/><br/>

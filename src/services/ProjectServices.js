@@ -4,12 +4,20 @@ import { nanoid } from "nanoid"
 export const Projects =[
     {
         id:nanoid(),
+        img:"/assets/projects/nasa-project.png",
+        title:"Nasa Mission Controle Dashboard",
+        descrition:"The nasa mission controle dashboard is a web app for Scheduling a mission launch for interstellar travel to one of the Kepler Exoplanets",
+        tags:["NodeJS","ExpressJS","MongoDB","React JS","Html","CSS","JS","GIT","GitHub","Docker"],
+        demo:"https://nasa-project-8a7z.onrender.com",
+        code:"https://github.com/sheiguey/Nasa-Project"
+    },
+    {
+        id:nanoid(),
         img:"/assets/projects/portfolio.png",
         title:"Portfolio",
         descrition:"My portfolio, the site you are currently browsing, giving you an overview of me and my skills.",
         tags:["React JS","Html","CSS"],
-        demo:"https://github.com/sheiguey",
-        code:""
+        code:"https://github.com/sheiguey/porfolio.git"
     },
     {
         id:nanoid(),
@@ -56,7 +64,6 @@ export const Projects =[
         demo:"https://youtu.be/aFNq3I7Qqrc",
        
     },
-     
     {
         id:nanoid(),
         img:"/assets/projects/bulksms.png",
@@ -71,19 +78,18 @@ export const Projects =[
         img:"/assets/projects/zencarto.png",
         title:"Zencarto" ,
         descrition:"An urban community application for collecting and mapping data on taxpayers in a geographical area, offering excellent tracking of tax payments.",
-        tags:["React JS","Html","CSS","JavaScrit","Bootstrap","Git"],
-         
+        tags:["React JS","Html","CSS","JavaScrit","Bootstrap","Git","PostgresSQL"],
+        
     },
     {
         id:nanoid(),
         img:"/assets/projects/zenoutdoor.png",
         title:"Zenoutdoor" ,
         descrition:"Application for collecting and geolocating points of sale, billboards and other points of interest.",
-        tags:["PHP","CodeIgniter","Html","CSS","JavaScrit","Bootstrap","Git"],
+        tags:["PHP","CodeIgniter","Html","CSS","JavaScrit","Bootstrap","Git","PostgresSQL"],
         demo:"https://youtu.be/OMOyUhhtGMk",
          
     },
-  
     {
         id:nanoid(),
         img:"/assets/projects/unit-conversion.png",

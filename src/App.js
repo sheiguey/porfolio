@@ -13,9 +13,6 @@ import NavBar from './NavBar';
 
 function App() {
   
-
-
-  
   return (
     <React.Fragment>
       <NavBar/>

@@ -25,6 +25,37 @@ export const skills =[
     },
     {
         id:nanoid(),
+        title:"NodeJS",
+        icon: "/assets/icons/nodejs-logo.svg"
+    },
+    {
+        id:nanoid(),
+        title:"ExpressJS",
+        icon: "/assets/icons/express-logo.svg"
+    },
+    {
+        id:nanoid(),
+        title:"Docker",
+        icon: "/assets/icons/docker-logo.svg"
+    },
+    
+    {
+        id:nanoid(),
+        title:"PostgresSQL",
+        icon: "/assets/icons/postgres-logo.svg"
+    },
+    {
+        id:nanoid(),
+        title:"MySQL",
+        icon: "/assets/icons/mysql-logo.svg"
+    },
+    {
+        id:nanoid(),
+        title:"MongoDB",
+        icon: "/assets/icons/mongodb.png"
+    },
+    {
+        id:nanoid(),
         title:"Bootstrap",
         icon:"/assets/icons/bootstrap-logo.svg"
     },

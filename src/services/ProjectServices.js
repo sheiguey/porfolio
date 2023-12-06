@@ -6,9 +6,12 @@ export const Projects =[
         id:nanoid(),
         img:"/assets/projects/nasa-project.png",
         title:"Nasa Mission Controle Dashboard",
-        descrition:"The nasa mission controle dashboard is a web app for Scheduling a mission launch for interstellar travel to one of the Kepler Exoplanets",
-        tags:["NodeJS","ExpressJS","MongoDB","React JS","Html","CSS","JS","GIT","GitHub","Docker"],
-        demo:"https://nasa-project-8a7z.onrender.com",
+        descrition:`The nasa mission controle dashboard is a web app for Scheduling a mission launch for interstellar 
+        travel to one of the Kepler ExoplanetsI used NodeJs-ExpressJs for the backend, ReactsJs for the frontend and 
+        mongoDB atlas for the database.
+        I used GitHub Actions for the continuous integration purpose, dockerize the app with Docker and deploy to aws Ec2 instance. `,
+        tags:["NodeJS","ExpressJS","MongoDB","React JS","Html","CSS","JS","GIT","GitHub","Docker",'AWS'],
+        demo:"http://13.39.50.145:10000",
         code:"https://github.com/sheiguey/Nasa-Project"
     },
     {

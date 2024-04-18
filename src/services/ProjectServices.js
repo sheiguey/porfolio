@@ -4,6 +4,28 @@ import { nanoid } from "nanoid"
 export const Projects =[
     {
         id:nanoid(),
+        img:"/assets/projects/chatbot.png",
+        title:"WhatsApp Chatbot",
+        descrition:`While still in the testing or initial phase, I've set up a WhatsApp chatbot that allows any camtrack customer to know the position of their vehicle in real time. 
+        The real goal of this project is to extend the scope, operations and global reach through WhatsApp, personalize and automate customer interaction, 
+        automate tasks and improve engagements (non-reporting, maintenance, etc.), optimize after-sales services with efficient chatbots 24/7 .`,
+        tags:["NodeJS","ExpressJS","Whatsapp API","JS","GIT","GitHub"],
+        demo:"https://youtu.be/qNEfr98H-eg",
+       
+    },
+    {
+        id:nanoid(),
+        img:"/assets/projects/repportAuto.png",
+        title:"Repport Automation",
+        descrition:`The after-sales service department had to transmit certain infringement or journey reports in Excel format from the vehicle fleets to their customers on a weekly, monthly or even daily basis. 
+        This was very tedious for the team, given the number of reports to customize and send. 
+        Hence the creation of an application or platform to solve this problem.. `,
+        tags:["NodeJS","ExpressJS","ExcelJS","JS","GIT","GitHub"],
+        demo:"https://youtu.be/nOvJcABhGTE",
+        
+    },
+    {
+        id:nanoid(),
         img:"/assets/projects/nasa-project.png",
         title:"Nasa Mission Controle Dashboard",
         descrition:`The nasa mission controle dashboard is a web app for Scheduling a mission launch for interstellar 
@@ -11,7 +33,7 @@ export const Projects =[
         mongoDB atlas for the database.
         I used GitHub Actions for the continuous integration purpose, dockerize the app with Docker and deploy to aws Ec2 instance. `,
         tags:["NodeJS","ExpressJS","MongoDB","React JS","Html","CSS","JS","GIT","GitHub","Docker",'AWS'],
-        demo:"http://13.39.50.145:10000",
+        demo:"https://nasa-project-8a7z.onrender.com/",
         code:"https://github.com/sheiguey/Nasa-Project"
     },
     {

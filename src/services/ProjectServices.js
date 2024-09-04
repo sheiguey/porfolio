@@ -37,7 +37,7 @@ export const Projects =[
     },
     {
         id:nanoid(),
-        img:"/assets/projects/tic-tic-toe.png",
+        img:"/assets/projects/tic-tac-toe.png",
         title:"Tic-Tac-Toe",
         descrition:"Tic-Tac-Toe game",
         tags:["React JS","Html","CSS","JavaScript"],

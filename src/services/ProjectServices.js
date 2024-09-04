@@ -22,7 +22,6 @@ export const Projects =[
         Hence the creation of an application or platform to solve this problem.. `,
         tags:["NodeJS","ExpressJS","ExcelJS","JS","GIT","GitHub"],
         demo:"https://youtu.be/nOvJcABhGTE",
-        
     },
     {
         id:nanoid(),
@@ -38,11 +37,21 @@ export const Projects =[
     },
     {
         id:nanoid(),
-        img:"/assets/projects/portfolio.png",
-        title:"Portfolio",
-        descrition:"My portfolio, the site you are currently browsing, giving you an overview of me and my skills.",
-        tags:["React JS","Html","CSS"],
-        code:"https://github.com/sheiguey/porfolio.git"
+        img:"/assets/projects/tic-tic-toe.png",
+        title:"Tic-Tac-Toe",
+        descrition:"Tic-Tac-Toe game",
+        tags:["React JS","Html","CSS","JavaScript"],
+        demo:"https://ephemeral-griffin-43fb36.netlify.app",
+        code:"https://github.com/sheiguey/Tic-Tac-Toe"
+    },
+    {
+        id:nanoid(),
+        img:"/assets/projects/investment-calculaator.png",
+        title:"Tic-Tac-Toe",
+        descrition:"Investment calculator",
+        tags:["React JS","Html","CSS","JavaScript"],
+        demo:"https://splendorous-sable-4ef5d2.netlify.app",
+        code:"https://github.com/sheiguey/investment-calculator"
     },
     {
         id:nanoid(),

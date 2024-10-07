@@ -19,7 +19,7 @@ export const Projects =[
         The real goal of this project is to extend the scope, operations and global reach through WhatsApp, personalize and automate customer interaction, 
         automate tasks and improve engagements (non-reporting, maintenance, etc.), optimize after-sales services with efficient chatbots 24/7 .`,
         tags:["NodeJS","ExpressJS","Whatsapp API","JS","GIT","GitHub"],
-        demo:"https://youtu.be/qNEfr98H-eg",
+        demo:"https://youtu.be/6m4SGt_-7tI",
        
     },
     {

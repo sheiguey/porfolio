@@ -13,7 +13,7 @@ export default function Header(){
                     <h2>
                      <TypewriterComponent 
                         options={{
-                            strings: ["Software Developer!", "MERN Stack Developer!"],
+                            strings: ["Software Developer!", "FullStack Developer!",'Backend Developer!','Frontend Developer!'],
                             autoStart: true,
                             loop: true,
                         }}

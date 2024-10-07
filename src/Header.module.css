@@ -8,7 +8,8 @@
     flex-direction: row;
     height: 100vh;
     background: rgb(0,212,255);
-    background: linear-gradient(rgba(41,91,167,0.5) 3%, rgba(23, 2, 80, 0.2) 60%, rgb(41,91,167) 90%) 100% 100% / cover scroll, url('/public/assets/background.jpg') center center no-repeat fixed;
+    background-image:url('/public/assets/background.jpg');
+    background: linear-gradient(rgba(41,91,167) 8%, rgba(23, 2, 80, 0.3) 60%, rgb(41,91,167) 80%) 100% 100% / cover scroll, url('/public/assets/background.jpg') center center fixed;
     border: none;
 }
 

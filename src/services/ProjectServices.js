@@ -4,9 +4,18 @@ import { nanoid } from "nanoid"
 export const Projects =[
     {
         id:nanoid(),
+        img:"/assets/projects/ymaneboot.png",
+        title:"WhatsApp Bulk messages",
+        descrition:`A whatsapp bulk messsages plateforme`,
+        tags:["NodeJS","ExpressJS","React JS","Whatsapp API","JS","GIT","GitHub","CI/CD"],
+        demo:"https://youtu.be/ZhAWT5-Lf6Y",
+       
+    },
+    {
+        id:nanoid(),
         img:"/assets/projects/chatbot.png",
         title:"WhatsApp Chatbot",
-        descrition:`While still in the testing or initial phase, I've set up a WhatsApp chatbot that allows any camtrack customer to know the position of their vehicle in real time. 
+        descrition:`I've set up a WhatsApp chatbot that allows any camtrack customer to know the position of their vehicle in real time. 
         The real goal of this project is to extend the scope, operations and global reach through WhatsApp, personalize and automate customer interaction, 
         automate tasks and improve engagements (non-reporting, maintenance, etc.), optimize after-sales services with efficient chatbots 24/7 .`,
         tags:["NodeJS","ExpressJS","Whatsapp API","JS","GIT","GitHub"],
@@ -46,8 +55,8 @@ export const Projects =[
     },
     {
         id:nanoid(),
-        img:"/assets/projects/investment-calculaator.png",
-        title:"Tic-Tac-Toe",
+        img:"/assets/projects/investment-calculator.png",
+        title:"Calculator investment",
         descrition:"Investment calculator",
         tags:["React JS","Html","CSS","JavaScript"],
         demo:"https://splendorous-sable-4ef5d2.netlify.app",

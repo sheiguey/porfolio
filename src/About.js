@@ -14,12 +14,12 @@ export default function About(){
                     </div>
                   <div>
                   <p className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}>
-                 Hi!!! I'm Franky Shiti, a 28-year-old Cameroonian living in Douala. 
+                 Hi!!! I'm Franky Shiti, a 29-year-old Cameroonian living in Douala. 
                  Passionate about the digital world, I've allowed myself to have an intensive apprenticeship 
                  in the world of web application development, giving me skills in this field. 
                   <br/><br/>
 
-                  My +3 years of experience in this field have shown me that the world of application development is very vast,  
+                  My +6 years of experience in this field have shown me that the world of application development is very vast,  
                   and that it's not just about coding or appearance. 
                   Notions such as code complexity  performance and security are very important elements in software development.
 

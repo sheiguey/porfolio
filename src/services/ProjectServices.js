@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 export const Projects = [
   {
     id: nanoid(),
-    img: '/assets/projects/ymaneboot.png',
+    img: '/assets/projects/ymaneboot.PNG',
     title: 'WhatsApp Bulk messages',
     descrition: `A whatsapp bulk messsages plateforme`,
     tags: [
@@ -40,7 +40,7 @@ export const Projects = [
     }, */
   {
     id: nanoid(),
-    img: '/assets/projects/nasa-project.png',
+    img: '/assets/projects/Nasa-Project.PNG',
     title: 'Nasa Mission Controle Dashboard',
     descrition: `The nasa mission controle dashboard is a web app for Scheduling a mission launch for interstellar 
         travel to one of the Kepler ExoplanetsI used NodeJs-ExpressJs for the backend, ReactsJs for the frontend and 
@@ -64,7 +64,7 @@ export const Projects = [
   },
   {
     id: nanoid(),
-    img: '/assets/projects/tic-tac-toe.png',
+    img: '/assets/projects/tic-tac-toe.PNG',
     title: 'Tic-Tac-Toe',
     descrition: 'Tic-Tac-Toe game',
     tags: ['React JS', 'Html', 'CSS', 'JavaScript'],
